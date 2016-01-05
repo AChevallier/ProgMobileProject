@@ -1,9 +1,11 @@
 package com.example.steve.quefaireici;
 
+import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.util.Log;
+import android.widget.ListView;
 import android.widget.Toast;
 
 import org.json.JSONException;
@@ -24,16 +26,16 @@ public class GetAsync extends AsyncTask<String, String, JSONObject> {
     private static final String TAG_SUCCESS = "success";
     private static final String TAG_MESSAGE = "message";
 
-    private Context context;
+    private Activity context;
 
-    public GetAsync(Context context){
+    public GetAsync(Activity context){
         this.context = context;
     }
 
     @Override
     protected void onPreExecute() {
         pDialog = new ProgressDialog(context);
-        pDialog.setMessage("Attempting login...");
+        pDialog.setMessage("Mise à jour...");
         pDialog.setIndeterminate(false);
         pDialog.setCancelable(true);
         pDialog.show();
@@ -66,6 +68,8 @@ public class GetAsync extends AsyncTask<String, String, JSONObject> {
 
     protected void onPostExecute(JSONObject json) {
 
+        ListView listView = (ListView)context.findViewById(R.id.listView);
+
         int success = 0;
         String message = "";
 
@@ -74,8 +78,7 @@ public class GetAsync extends AsyncTask<String, String, JSONObject> {
         }
 
         if (json != null) {
-            Toast.makeText(context, json.toString(),
-                    Toast.LENGTH_LONG).show();
+            //Toast.makeText(context, json.toString(),Toast.LENGTH_LONG).show();
 
             try {
                 success = json.getInt(TAG_SUCCESS);
