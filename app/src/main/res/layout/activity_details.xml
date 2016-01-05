@@ -2,11 +2,12 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal" >
+    android:orientation="vertical" >
 
     <fragment
-        android:id="@+id/listFragment"
+        android:id="@+id/detailFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        class="com.example.steve.quefaireici.ListeActivityFragment" />
+        class="com.example.steve.quefaireici.DetailsActivityFragment" />
+
 </LinearLayout>
