@@ -5,6 +5,7 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.util.Log;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -67,8 +68,12 @@ public class GetAsync extends AsyncTask<String, String, JSONObject> {
     }
 
     protected void onPostExecute(JSONObject json) {
-
+        String[] values = new String[1];
+        values[0] = "toto";
         ListView listView = (ListView)context.findViewById(R.id.listView);
+        ArrayAdapter< String> adapter = new ArrayAdapter< String>(context,android.R.layout.simple_list_item_1, values);
+        listView.setClickable(true);
+        listView.setAdapter(adapter);
 
         int success = 0;
         String message = "";
