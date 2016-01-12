@@ -69,7 +69,9 @@ public class GetAsync extends AsyncTask<String, String, JSONObject> {
 
     protected void onPostExecute(JSONObject json) {
         String[] values = new String[1];
+        int i = 0;
         values[0] = "toto";
+
         ListView listView = (ListView)context.findViewById(R.id.listView);
         ArrayAdapter< String> adapter = new ArrayAdapter< String>(context,android.R.layout.simple_list_item_1, values);
         listView.setClickable(true);

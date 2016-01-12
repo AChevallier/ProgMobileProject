@@ -2,32 +2,32 @@
 <items version="2" >
 
     <item
-        jar="/Users/Steve/Documents/Cours/Programmation ANDROID/Projet_android/ProgMobileProject/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="/Users/Steve/Documents/Cours/Programmation ANDROID/Projet_android/ProgMobileProject/app/build/intermediates/pre-dexed/debug/classes-fee821ba796ae560bfea41545a0eb8630608f429.jar" />
-    </item>
-    <item
-        jar="/Users/Steve/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jar="/Users/alexandre/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="/Users/Steve/Documents/Cours/Programmation ANDROID/Projet_android/ProgMobileProject/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-c77f35817a86240ab7c4b38dabf25e259d05d62d.jar" />
+        <dex dex="/Users/alexandre/Projects/ProgMobileProject/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-ee3f4d5fa65aba9ab94b9138a77f5ece686d2e67.jar" />
     </item>
     <item
-        jar="/Users/Steve/Documents/Cours/Programmation ANDROID/Projet_android/ProgMobileProject/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jar="/Users/alexandre/Projects/ProgMobileProject/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="/Users/Steve/Documents/Cours/Programmation ANDROID/Projet_android/ProgMobileProject/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-07b3411380c6027621b8d9ef57bc0e5dc8d9e599.jar" />
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/alexandre/Projects/ProgMobileProject/app/build/intermediates/pre-dexed/debug/classes-98733d1dea9cf142e5629d0689fd12a0c9ae7a45.jar" />
     </item>
     <item
-        jar="/Users/Steve/Documents/Cours/Programmation ANDROID/Projet_android/ProgMobileProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jar="/Users/alexandre/Projects/ProgMobileProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="/Users/Steve/Documents/Cours/Programmation ANDROID/Projet_android/ProgMobileProject/app/build/intermediates/pre-dexed/debug/classes-dbba72f67adc4f5b1a08909327186d6a5183f1a0.jar" />
+        <dex dex="/Users/alexandre/Projects/ProgMobileProject/app/build/intermediates/pre-dexed/debug/classes-db1faa50232b68f5b741475cea33a6bf8d3e6167.jar" />
+    </item>
+    <item
+        jar="/Users/alexandre/Projects/ProgMobileProject/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/alexandre/Projects/ProgMobileProject/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-f623b3fcb15d8ee10fb556d8ee8810a1a2d5ad7a.jar" />
     </item>
 
 </items>
