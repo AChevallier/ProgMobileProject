@@ -69,7 +69,7 @@ public class GetAsync extends AsyncTask<String, String, JSONObject> {
 
     protected void onPostExecute(JSONObject json) {
         String[] values = new String[1];
-        int i = 0;
+        int i = 1;
         values[0] = "toto";
 
         ListView listView = (ListView)context.findViewById(R.id.listView);
